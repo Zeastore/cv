@@ -119,13 +119,13 @@ echo -e   ""
 read -p " Select menu :  "  opt
 echo -e   ""
 case $opt in
-1) clear ; m-sshovpn ;;
-2) clear ; m-vmess ;;
-3) clear ; m-vless ;;
-4) clear ; m-ssws ;;
-5) clear ; m-trojan ;;
-6) clear ; m-system ;;
-7) clear ; running ;;
-8) clear ; clearcache ;;
+1) clear ; m-sshovpn ; exit ;;
+2) clear ; m-vmess ; exit ;;
+3) clear ; m-vless ; exit ;;
+4) clear ; m-ssws ; exit ;;
+5) clear ; m-trojan ; exit ;;
+6) clear ; m-system ; exit ;;
+7) clear ; running ; exit ;;
+8) clear ; clearcache ; exit ;;
 x) exit ;;
 esac
